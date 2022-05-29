@@ -1,0 +1,46 @@
+body{
+    background-image: url("images/caihong.jpg");
+
+}
+#BigDiv{
+
+    backdrop-filter: blur();
+    align-content: center;
+    width: 800px;
+    margin: 100px auto;
+
+    background-image: linear-gradient(to right top, rgba(255,255,255,0.3), rgba(255,255,255,0.7));
+    position: relative;
+    box-shadow: 0 5px 15px rgba(20, 20, 20, 0.8);
+    border-radius: 50px;
+    align-items: center;
+
+}
+#Erweima{
+    margin: auto;
+    margin-top: 50px;
+    height: 700px;
+    width: 700px;
+}
+#Erweima div{
+
+    height: 350px;
+    width: 350px;
+    float: left;
+
+}
+#Erweima ul{
+    list-style: none;
+}
+#Erweima ul li image{
+    height: 250px;
+    width: 250px;
+}
+#beian{
+    /*border: solid black 1px;*/
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 41%;
+
+}

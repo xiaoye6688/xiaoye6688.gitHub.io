@@ -1,0 +1,11 @@
+/* 毛玻璃效果 */
+#1 {
+  background: url(../images/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}

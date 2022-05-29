@@ -1,0 +1,44 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 86%;
+    padding-top: 6%;
+    /*body背景图片*/
+    background-color: cadetblue;
+    /*background: #337AB7 url("./images/caihong.jpg") no-repeat 100% 100%;*/
+}
+#bodydiv{
+    border: red solid 0px;
+    height: 80%;
+}
+#title{
+    height: 10%;
+    width: 80%;
+    border: black solid 0px;
+    margin-left: 10%;
+}
+#title span{
+
+    font-size: 200%;
+}
+.me{
+    /*border: black solid 1px;*/
+    width: 40%;
+    height: 65%;
+    float: left;
+    margin: 5% 5% 5% 5%;
+    background-color: wheat;
+}
+/*#beian{*/
+/*    !*border: solid black 1px;*!*/
+/*    margin: auto;*/
+/*    padding-top: 5%;*/
+/*    padding-bottom: 1%;*/
+/*    text-align: center;*/
+/*    !*padding-left: 41%;*!*/
+
+/*}*/

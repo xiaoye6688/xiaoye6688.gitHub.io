@@ -1,0 +1,73 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    margin: 0;
+    width: 100%;
+    height: 86%;
+    padding-top: 6%;
+    /*body背景图片*/
+    background: #337AB7 url("./images/caihong.jpg") no-repeat 100% 100%;
+}
+
+
+#bodydiv{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    /*毛玻璃效果*/
+    background: rgba(255,255,255,0.5);
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0.5)), color-stop(100%, rgba(255,255,255,0.5)));
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+    background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+    background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+
+
+    /* background-image: linear-gradient(to right top, rgba(255,255,255,0.3), rgba(255,255,255,0.7)); */
+    position: relative;
+    box-shadow: 0 5px 15px rgba(20, 20, 20, 0.8);
+    border-radius: 50px;
+    align-items: center;
+    /*按钮居中*/
+    text-align: center;
+}
+#bodydiv div{
+    margin: auto;
+    height: 25%;
+    /*border: black solid 1px;*/
+}
+#bodydiv div button{
+    margin-top: 4%;
+    width: 80%;
+    height: 50%;
+/*按钮样式*/
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 100px;
+    transition: all .2s;
+    position: relative;
+    animation: moveInBottom 1s 0.75s;
+    animation-fill-mode: backwards;
+    background: linear-gradient( to right,cadetblue,red);
+
+    /*background-color: cadetblue;*/
+}
+#bodydiv div button span{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 150%;
+}
+#beian{
+    /*border: solid black 1px;*/
+    margin: auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+    text-align: center;
+    /*padding-left: 41%;*/
+
+}
