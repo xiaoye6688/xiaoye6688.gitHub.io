@@ -9,6 +9,10 @@ body{
     padding-top: 6%;
     /*body背景图片*/
     background: #337AB7 url("./images/caihong.jpg") no-repeat 100% 100%;
+
+    background-size: cover;/* 页面不平铺 */
+    /* 固定大小 */
+    background-attachment: fixed;
 }
 
 
@@ -35,7 +39,7 @@ body{
 }
 #bodydiv div{
     margin: auto;
-    height: 25%;
+    height: 19%;
     /*border: black solid 1px;*/
 }
 #bodydiv div button{
