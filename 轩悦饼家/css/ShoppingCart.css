@@ -1,0 +1,171 @@
+a{
+    /* 超链接去下划线 */
+    text-decoration: none;
+}
+.bigDiv {
+    border: 2px #dfdfdf solid;
+    height: 800px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+
+.headDiv {
+    width: 100%;
+    height: 100px;
+    background-color: #ebebeb;
+}
+
+.commodityBig {
+    height: 700px;
+    padding: 30px;
+}
+
+.commodity {
+    height: 33.33%;
+    border-bottom: 2px #dfdfdf dashed;
+
+}
+
+.commodity:last-child {
+    border: 0;
+}
+
+.commodity img {
+    width: 128px;
+    height: 131px;
+    margin-top: 46px;
+}
+
+.headDiv>div,
+.commodity>div {
+    display: inline-block;
+    width: 223px;
+    text-align: center;
+}
+
+.commodity>div {
+    line-height: 100px;
+    width: 150px;
+    vertical-align: top;
+}
+
+.headDiv>div:nth-of-type(1) {
+    display: inline-block;
+    width: 35%;
+    margin-left: 100px;
+    text-align: unset;
+}
+
+.commodity>div:nth-of-type(1) {
+
+    width: unset;
+}
+
+.commodity>div:nth-of-type(3) {
+    margin-left: -9px;
+    /*此处修改适应分辨率*/
+    margin-right: 88px;
+    width: unset;
+}
+
+.commodityName {
+    width: 326px!important;
+    margin-top: 45px;
+}
+
+.commodityName,
+.marketPrice {
+    color: #707070;
+    width: 200px;
+}
+
+.check {
+
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.marketPrice,
+.SubscriptionPrice,
+.number,
+.action {
+    margin-top: 45px;
+    
+    
+}
+.marketPrice h3,
+.SubscriptionPrice h3,
+.number h3,
+.action h3 {
+    
+    width: 150px;
+}
+.marketPrice h3{
+    margin-left: 220px;
+}
+.SubscriptionPrice h3{
+    margin-left: 170px;
+}
+.number h3{
+    margin-left: 80px;
+}
+.action h3{
+    margin-left: 10px;
+}
+.bigDivTwo {
+
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 2px solid;
+    border-color: #dfdfdf;
+}
+
+.bigDivTwo div {
+    float: left;
+}
+
+.bigDivTwo span strong {
+    color: #ff6a00;
+    font-size: 20px;
+    text-align: right;
+    margin-left: -85%;
+    width: 88%;
+    height: 100%;
+    display: inline-block;
+    padding-top: 15px;
+}
+
+.bigDivTwo button {
+    font-size: 20px;
+    color: white;
+    border-color: #ff6a00;
+    height: 100%;
+    width: 12%;
+    float: right;
+    background-color: #ff6a00;
+}
+
+.check:checked {
+    background: #ff6a00;
+}
+/* js事件 */
+#add,#remove{
+    width: 20px;
+    height: 20px;
+    border:1px solid #ff6a00;
+    display: inline-block;
+}
+.decrease,.increase{
+    width: 20px;
+    height: 20px;
+    margin-top: 50px;
+}
+.quantity{
+    text-align: center;
+    width: 24px;
+    margin-top: -30px;
+}

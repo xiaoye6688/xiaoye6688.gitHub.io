@@ -1,0 +1,549 @@
+各大公司重置样式库：
+
+腾讯
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0}
+
+body{font:12px "宋体","Arial Narrow",HELVETICA;background:#fff;-webkit-text-size-adjust:100%}
+
+a{color:#172c45;text-decoration:none}
+
+a:hover{color:#cd0200;text-decoration:underline}
+
+em{font-style:normal}
+
+li{list-style:none}
+
+img{border:0;vertical-align:middle}
+
+table{border-collapse:collapse;border-spacing:0}
+
+p{word-wrap:break-word}
+
+
+
+
+百度
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+
+html{color:#000;overflow-y:scroll;overflow:-moz-scrollbars-vertical}
+
+body,button,input,select,textarea{font-size:12px;font-family:arial,'Hiragino Sans GB','Microsoft Yahei','微软雅黑','宋体',\5b8b\4f53,Tahoma,Arial,Helvetica,STHeiti}
+
+h1,h2,h3,h4,h5,h6{font-size:100%}
+
+em{font-style:normal}
+
+small{font-size:12px}
+
+ul,ol{list-style:none}
+
+a{text-decoration:none}
+
+a:hover{text-decoration:underline}
+
+legend{color:#000}
+
+fieldset,img{border:0}
+
+button,input,select,textarea{font-size:100%}
+
+table{border-collapse:collapse;border-spacing:0}
+
+img{-ms-interpolation-mode:bicubic}
+
+textarea{resize:vertical}
+
+.left{float:left}
+
+.right{float:right}
+
+.overflow{overflow:hidden}
+
+.hide{display:none}
+
+.block{display:block}
+
+.inline{display:inline}
+
+.error{color:#F00;font-size:12px}
+
+label,button{cursor:pointer}
+
+.clearfix:after{content:'\20';display:block;height:0;clear:both}
+
+.clearfix{zoom:1}.clear{clear:both;height:0;line-height:0;font-size:0;visibility:hidden;overflow:hidden}
+
+.wordwrap{word-break:break-all;word-wrap:break-word}
+
+pre.wordwrap{white-space:pre-wrap}
+
+body{text-align:center}
+
+body,form{position:relative}
+
+td{text-align:left}
+
+img{border:0}
+
+
+
+
+新浪
+
+/* 初始化CSS */
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, img { border:none; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; }
+
+input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋体";}
+
+input::-moz-focus-inner { border:none; padding:0; }
+
+select, input { vertical-align:middle; }
+
+select, input, textarea { font-size:12px; margin:0; }
+
+input[type="text"], input[type="password"], textarea { outline-style:none; -webkit-appearance:none; }
+
+textarea { resize:none; }
+
+table { border-collapse:collapse; }
+
+body { color:#333; padding:5px 0; font:12px/20px "SimSun","宋体","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ }
+
+.clearfix:after { content:"."; display:block; height:0; visibility:hidden; clear:both; }
+
+.clearfix { zoom:1; }
+
+.clearit { clear:both; height:0; font-size:0; overflow:hidden; }
+
+a { color:#666; text-decoration:none; }
+
+a:visited { color:#666; }
+
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+
+
+
+
+淘宝
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+
+address, cite, dfn, em, var { font-style:normal; }
+
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+
+small{ font-size:12px; }
+
+ul, ol { list-style:none; }
+
+a { text-decoration:none; }
+
+a:hover { text-decoration:underline; }
+
+sup { vertical-align:text-top; }
+
+sub{ vertical-align:text-bottom; }
+
+legend { color:#000; }
+
+fieldset, img { border:0; }
+
+button, input, select, textarea { font-size:100%; }
+
+table { border-collapse:collapse; border-spacing:0; }
+
+
+
+
+网易
+
+html {overflow-y:scroll;}
+
+body {margin:0; padding:0; font:12px/1.5 \5b8b\4f53,Arial,sans-serif;/*background:#ffffff;*/}
+
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,blockquote,p{padding:0; margin:0;}
+
+table,td,tr,th{font-size:12px;}
+
+ol,ul {list-style:none;}
+
+li{list-style-type:none;}
+
+img{vertical-align:top;border:0;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight:normal;}
+
+address,cite,code,em,th,i{font-weight:normal; font-style:normal;}
+
+.hx a,.hx em,.fB{font-weight:bold;}
+
+.clearfix{*zoom:1;}
+
+.clearfix:after{display:block; overflow:hidden; clear:both; height:0; visibility:hidden; content:".";}
+
+a {color:#252525; text-decoration:none;}
+
+a:visited {text-decoration:none;}
+
+a:hover {color:#ba2636;text-decoration:underline;}
+
+a:active {color:#ba2636;}
+
+
+
+
+搜狐
+
+/* 全局CSS定义 */
+
+body{font-family:"\5B8B\4F53","Arial Narrow",HELVETICA;text-align:center;margin:0 auto;padding:0;background:#FFF;font-size:12px;color:#333;}
+
+body > div{text-align:center;margin-right:auto;margin-left:auto;} 
+
+div,form,ul,ol,li,span,p{margin:0;padding:0;border:0;}
+
+img,a img{border:0;margin:0;padding:0;}
+
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+
+ul,ol,li{list-style:none}
+
+table,td,input{font-size:12px;padding:0}
+
+/* 默认链接颜色 */
+
+a{outline-style:none;color:#333;text-decoration:none}
+
+a:hover{color:#c00;text-decoration:underline;}
+
+ 
+
+/*清除链接虚框*/
+
+/*a,area {blr:expression(this.onFocus=this.blur()) }  for IE 
+
+:focus {-moz-outline-style: none; }  for Firefox   
+
+*/
+
+
+
+
+优酷
+
+@charset "utf-8";
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section{display:block}
+
+audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
+
+audio:not([controls]){display:none}
+
+html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+
+a:focus{outline:thin dotted #333;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}
+
+a:hover,a:active{outline:0}
+
+figure{padding:0;margin:0}
+
+sub,sup{position:relative;font-size:75%;line-height:0;vertical-align:baseline}
+
+sup{top:-0.5em}
+
+sub{bottom:-0.25em}
+
+img{vertical-align:middle;border:0;-ms-interpolation-mode:bicubic}
+
+button,input,select,textarea{margin:0;font-size:100%;vertical-align:middle}
+
+button,input{*overflow:visible;line-height:normal}
+
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+
+button,input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+
+input[type="search"]{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;-webkit-appearance:textfield}
+
+input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}
+
+textarea{overflow:auto;vertical-align:top}
+
+ol,ul,dl{list-style:none}
+
+body,p,ol,ul,dl{padding:0;margin:0}
+
+a:link,a:visited{text-decoration:none;color:#555}
+
+a:hover{color:#c31}
+
+a.white{color:#fff}
+
+a.blue{color:#3399e0}
+
+
+
+
+美团
+
+blockquote,body,code,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+
+table{border-collapse:collapse;border-spacing:0}
+
+fieldset,img{border:0}
+
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:400}
+
+li{list-style:none}
+
+caption,th{text-align:left}
+
+h1,h2,h3,h4,h5,h6{font-size:100%}
+
+q:after,q:before{content:''}
+
+abbr,acronym{border:0;font-variant:normal}
+
+sup{vertical-align:text-top}
+
+sub{vertical-align:text-bottom}
+
+input,select,textarea{font-family:inherit;font-size:inherit;*font-size:100%;font-weight:inherit}
+
+legend{color:#333}html{background-color:#eee}
+
+body{font:400 14px/1.5 "Hiragino Sans GB","WenQuanYi Micro Hei",tahoma,sans-serif;color:#666;background-color:#fff}
+
+a{color:#2bb8aa;text-decoration:none}a:hover{text-decoration:underline}
+
+h1,h2,h3,h4,h5,h6{font-family:"Hiragino Sans GB"," Microsoft YaHei","WenQuanYi Micro Hei",arial,sans-serif;color:#333;-webkit-font-smoothing:antialiased}
+
+input[type=password]{font-family:arial,sans-serif}
+
+
+/*Eric Meyer’s CSS reset :*/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+
+   v2.0 | 20110126
+
+   License: none (public domain)
+
+*/
+
+html, body, div, span, applet, object, iframe,
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+
+a, abbr, acronym, address, big, cite, code,
+
+del, dfn, em, img, ins, kbd, q, s, samp,
+
+small, strike, strong, sub, sup, tt, var,
+
+b, u, i, center,
+
+dl, dt, dd, ol, ul, li,
+
+fieldset, form, label, legend,
+
+table, caption, tbody, tfoot, thead, tr, th, td,
+
+article, aside, canvas, details, embed,
+
+figure, figcaption, footer, header, hgroup,
+
+menu, nav, output, ruby, section, summary,
+
+time, mark, audio, video {margin: 0;padding: 0;border: 0;font-size: 100%;font: inherit;vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+
+body {line-height: 1;}
+
+ol, ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+
+table {border-collapse: collapse; border-spacing: 0;}
+
+
+
+
+YUI
+
+/*
+
+YUI 3.18.1（建f7e7bcb）
+
+版权所有2014年雅虎公司保留所有权利。
+
+在BSD许可。
+
+<http://yuilibrary.com/license/>
+
+*/
+
+ 
+
+html{color:#000;background:#FFF}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0}
+
+table{border-collapse:collapse;border-spacing:0}
+
+fieldset,img{border:0}
+
+address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal}
+
+ol,ul{list-style:none}
+
+caption,th{text-align:left}
+
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+
+q:before,q:after{content:''}
+
+abbr,acronym{border:0;font-variant:normal}
+
+sup{vertical-align:text-top}
+
+sub{vertical-align:text-bottom}
+
+input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;*font-size:100%}
+
+legend{color:#000}
+
+\#yui3-css-stamp.cssreset{display:none}
+
+
+
+
+other1：
+
+@charset "utf-8";
+
+/* =reset 网页样式重置 
+
+html { font-size:1em;-webkit-tap-highlight-color:rgba(0,0,0,0); -webkit-tap-highlight:rgba(0,0,0,0);-webkit-text-size-adjust:none;overflow:-moz-scrollbars-vertical;/*强制firefox出现滑动条*/
+
+body { font-size:0.75em;} 
+
+label { cursor:pointer;} 
+
+a:link, a:visited { text-decoration:none;} 
+
+input:focus { outline: none; } 
+
+input,button,select,textarea{outline:none;/*-webkit-appearance:none;*//*强制去除表单自带的样式*/ } 
+
+textarea{resize:none;/*-webkit-appearance:none;*//*强制去除textarea自带的样式*/ }  
+
+input:-webkit-autofill { -webkit-box-shadow: 0 0 0px 1000px white inset; } /*利用阴影来填充掉input自动填充色*/
+
+textarea,input,select { background: none; border:none; margin: 0; padding: 0; }   
+
+a, abbr, acronym, address, applet, article, aside, audio, b, blockquote, big, body, center, canvas, caption, cite, code, command, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, font, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, menu, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strike, strong, sub, sup, table, tbody, tfoot, thead, th, tr, tdvideo, tt,u, ul, var { margin:0; padding:0;} 
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption { display: block;} /*html5设置*/
+
+h1, h2, h3, h4, h5, h6, th, td, table, input, button, select, textarea, sub{ font-size:1em;} 
+
+body, input, button, select, textarea, sub{ font-family:Arial, sans-serif;} 
+
+em, cite, address, optgroup { font-style:normal;} 
+
+kbd, samp, code { font-family:monospace;} 
+
+img, input, button, select, textarea { vertical-align:middle;outline:none;} 
+
+ul, ol { list-style:none;} 
+
+img, fieldset { border:0;} 
+
+abbr, acronym { cursor:help; border-bottom:1px dotted black;} 
+
+table { width:100%; border-spacing:0; border:0;} 
+
+table th, table td { border:0;} 
+
+legend, hr { overflow:hidden; position:absolute; top:0; left:0;} 
+
+legend, hr, caption { visibility:hidden; font-size:0; width:0; height:0; line-height:0;}
+
+
+
+
+other2：
+
+html{height:100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;-webkit-font-smoothing:antialiased;}
+
+body{margin:0;padding:0;background-color:#fff;min-height:100%;height:auto !important;height:100%;text-align:center;color:#404040;font:12px/1.5 Helvetica,arial;}
+
+h1,h2,h3,h4,h5,h6,p,figure,form{margin:0;}
+
+table{border-collapse:collapse; border-spacing:0;}
+
+img{border:0;vertical-align:middle;-ms-interpolation-mode: bicubic;}
+
+a{text-decoration:none;color:#29B4F0;}
+
+a:focus {outline: thin dotted;}
+
+a:hover{color:#017CB9;text-decoration:underline;}
+
+/* hn */
+
+h1{font-size:16px;line-height:36px;}
+
+h2{font-size:14px;line-height:30px;}
+
+h3{line-height:24px;}
+
+h3,h4,h5,h6{font-size:12px;}
+
+/* ul ol dl */
+
+ul,li,ol{margin: 0;padding:0;list-style: none outside none;}
+
+ul.has-style li,ol li{margin-left:25px;}
+
+ul.has-style li{list-style:disc;}
+
+ol li{list-style:decimal;}
+
+ul.inline-style li{float:left;display:inline;}
+
+dl{margin-bottom: 18px;}
+
+dt{font-weight: bold;}
+
+dd{margin:0 0 0 9px;padding:0;}
+
+svg:not(:root) { overflow: hidden;}
+
+/* clearfix */
+
+.clearfix:before, .clearfix:after {content:""; display:table;}
+
+.clearfix:after{clear:both;overflow:hidden;}
+
+.clearfix{zoom:1;}

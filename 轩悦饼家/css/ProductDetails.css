@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+/* 左边部分 */
+.BigDiv {
+    width: 74%;
+    height: 650px;
+    margin-left: 13%;
+    margin-top: 50px;
+}
+
+.BigSonLeft,
+.BigSonRight {
+    height: 100%;
+    display: inline-block;
+}
+
+.BigSonLeft {
+    width: 40%;
+}
+
+
+.BigSonLeft div {
+    border-radius: 8px;
+}
+
+.LeftTop {
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/cake1_big.jpg);
+    background-size: cover;
+}
+
+.LeftTop img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.LeftBottom {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.LeftBottomSmall {
+    height: 70px;
+    width: 15%;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.LeftBottomSmallStyle {
+    border: 2px #FF734C solid;
+}
+
+.LeftBottomSmall img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* 右边部分 */
+.BigSonRight {
+    width: 50%;
+    padding-left: 9%;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.sellingPrice {
+    border-radius: 10px 10px 0 0;
+    background-color: #F3F5F7;
+}
+
+.sellingPrice span:not(:last-child) {
+    margin: 20px;
+}
+
+.sellingPrice,
+.xinxi {
+    font-size: 10px;
+}
+
+.detailPrice {
+    color: #ff3d12;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.sellingPrice span:not(:nth-child(2)) {
+    line-height: 50px;
+}
+
+.detailName,
+.marketPrice {
+    color: #a9a8a9;
+}
+
+.Sold {
+    margin-right: 20px;
+    display: block;
+    float: right;
+}
+
+.Sold i {
+    font-style: unset;
+    color: #ff3d12;
+}
+
+.material {
+    background-color: #F7F9FA;
+}
+
+.material span {
+    line-height: 40px;
+    margin: 20px;
+}
+
+.xinxi span:first-child {
+    color: #a9a8a9;
+}
+
+.lastXinxi {
+    border-radius: 0px 0px 10px 10px;
+}
+
+.Distribution {
+    display: block;
+    width: 100%;
+    font-size: 10px;
+}
+
+.Distribution:nth-child(2n) {
+    color: gray;
+    Text-indent: 20px;
+    margin-top: 10px;
+}
+
+.Distribution:nth-child(2n-1) {
+    margin-top: 5px;
+}
+
+.Options span {
+    color: gray;
+    display: block;
+    text-indent: 20px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.Options div {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-right: 20px;
+    padding-top: 10px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 60px;
+    width: 180px;
+    border-radius: 30px;
+    border: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.one {
+    color: #FF734C;
+    background-color: #FFF0EC;
+}
+
+.two {
+    color: white;
+    background-color: #FF734C;
+}
+
+.xuanzhong {
+    border: 2px #FF734C solid !important;
+}

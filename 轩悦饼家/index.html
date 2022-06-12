@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" /> -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/unslider.min.js"></script>
+    <script src="js/index.js"></script>
     <title>轩悦饼家</title>
 </head>
-<body>
-    <div id="head" style="" class="animate__animated animate__bounceIn">
-        <div id="logo"  >
-            <img src="img/logo_big01.png" height="100%" width="100%"/>
-        </div>
-        <div id="dingwei" >
 
-            <img src="img/icon-address.png" height="100%" width="100%"/></div>
+<body>
+    <div id="head" class="animate__animated animate__bounceIn">
+        <div id="logo">
+            <img src="img/logo_big01.png" height="100%" width="100%" />
+        </div>
+        <div id="dingwei">
+
+            <img src="img/icon-address.png" height="100%" width="100%" />
+        </div>
         <div style="margin-top: 20px">
-            <p style="">武汉市</p>
+            <p>武汉市</p>
         </div>
         <div style="margin-top: 20px">
             <button id="btn">
@@ -47,13 +53,16 @@
         <div id="bigend">
             <div class="end">
 
-                <img src="img/放大镜.png" height="200" width="200"/></div>
+                <img src="img/放大镜.png" height="200" width="200" />
+            </div>
             <div class="end">
 
-                <img src="img/06商品-线性.png" height="200" width="200"/></div>
+                <img src="img/06商品-线性.png" height="200" width="200" />
+            </div>
             <div class="end">
 
-                <img src="img/表单控件 联系人.png" height="200" width="200"/></div>
+                <img src="img/表单控件 联系人.png" height="200" width="200" />
+            </div>
             <div id="endend">
                 <span style="font-size:10px"><b>联系我们</b></span>
             </div>
@@ -62,23 +71,31 @@
     <!--页面中部-->
     <div id="middleDiv">
         <div id="neiRong">
-            <div id="photo">
-                <img src="img/03首页(1).png" height="100%" width="100%"/>
+            <div class="banner photo" id="b04">
+                <ul>
+                    <li><img src="img/bg.jpg" alt="" width="1000px" height="500px" ></li>
+                    <li><img src="img/bg1.jpg" alt="" width="1000px" height="500" ></li>
+                    <li><img src="img/bg2.jpg" alt="" width="1000px" height="500" ></li>
+                    <li><img src="img/bg3.jpg" alt="" width="1000px" height="500" ></li>
+                    
+                </ul>
+                <a href="javascript:void(0);" class="unslider-arrow04 prev"><img class="arrow" id="al" src="img/arrowl.png" alt="prev" width="20" height="35"></a>
+                <a href="javascript:void(0);" class="unslider-arrow04 next"><img class="arrow" id="ar" src="img/arrowr.png" alt="next" width="20" height="37"></a>
             </div>
             <div id="middleBottom">
                 <div class="middleBottomOne">
-                    <img src="img/cake_03.jpg"  width="70%"/>
+                    <img src="img/cake_03.jpg" width="70%" />
                     <div class="wenzi" style="margin: 0 auto">AFTERNOON TEA 下午茶</div>
                     <div class="jieshao">“一杯咖啡，一份甜点，一抹偷不走的时光</div>
                 </div>
                 <div class="middleBottomTwo">
-                    <img src="img/cake_05.jpg" width="70%"/>
-                    <div class="wenzi">CAKE  蛋糕</div>
+                    <img src="img/cake_05.jpg" width="70%" />
+                    <div class="wenzi">CAKE 蛋糕</div>
                     <div class="jieshao">只有国王才有资格拥有的，享受众人给予的祝福”</div>
                 </div>
                 <div class="middleBottomOne">
-                    <img src="img/cake_07.jpg" width="70%"/>
-                    <div class="wenzi">SOUVENIR  手信</div>
+                    <img src="img/cake_07.jpg" width="70%" />
+                    <div class="wenzi">SOUVENIR 手信</div>
                     <div class="jieshao">“不在于贵，一情意，一真诚”</div>
                 </div>
             </div>
@@ -94,7 +111,7 @@
         <div class="bottomXX"><span>帮助服务</span></div>
         <div class="bottomXX" style="border-right: 0px white solid;"><span>联系我们</span></div>
         <div id="tel">
-            <span style=""><img src="img/tel_03.jpg" height="16" width="18"/></span>
+            <span><img src="img/tel_03.jpg" height="16" width="18" /></span>
             <span style="color: white">400-999-6665</span>
             <span style="color: white">WEIBO</span>
             <span style="color: white">WECHAT</span>
@@ -119,4 +136,18 @@
 
     </div>
 </body>
+<script>
+    $(document).ready(function(e) {
+    var unslider04 = $('#b04').unslider({
+        dots: true
+    }),
+    data04 = unslider04.data('unslider');
+     
+    $('.unslider-arrow04').click(function() {
+        var fn = this.className.split(' ')[1];
+        data04[fn]();
+    });
+});
+</script>
+
 </html>

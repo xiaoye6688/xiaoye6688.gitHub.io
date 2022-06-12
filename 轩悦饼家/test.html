@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .tui-checkbox:checked {
+      background: #1673ff
+    }
+
+    .tui-checkbox {
+      width: 25px;
+      height: 25px;
+      background-color: #ffffff;
+      border: solid 1px #dddddd;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      font-size: 0.8rem;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      display: inline-block;
+      vertical-align: top;
+      cursor: default;
+      -webkit-appearance: none;
+      -webkit-user-select: none;
+      user-select: none;
+      -webkit-transition: background-color ease 0.1s;
+      transition: background-color ease 0.1s;
+      outline: none;
+    }
+
+    .tui-checkbox:checked::after {
+      content: '';
+      top: 5px;
+      left: 5px;
+      position: absolute;
+      background: transparent;
+      border: #fff solid 2px;
+      border-top: none;
+      border-right: none;
+      height: 6px;
+      width: 10px;
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+    .a{
+      background-color: red;
+    }
+    .b{
+      background-color: blue;
+    }
+  </style>
+</head>
+<style>
+  li {
+    
+    display: inline-block;
+    width: 20px;
+  }
+</style>
+<body>
+
+ <div>
+   <li>
+     <ul>aa</ul>
+     <ul>ss</ul>
+     <ul>dd</ul>
+   </li>
+   <li>
+    <ul>gg</ul>
+    <ul>gg</ul>
+    <ul>ee</ul>
+  </li>
+  <li>
+    <ul>gg</ul>
+    <ul>ww</ul>
+    <ul>kk</ul>
+  </li>
+  <ul>
+    <ul>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+  </ul>
+  <ul>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+  </ul>
+  <ul>
+    <li>77</li>
+    <li>88</li>
+    <li>22</li>
+    <li>54</li>
+  </ul>
+  <ul>
+    <li>4</li>
+    <li>45</li>
+    <li>45</li>
+    <li>45</li>
+  </ul>
+
+ </div>
+</body>
+
+</html>

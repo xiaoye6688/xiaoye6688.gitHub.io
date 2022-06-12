@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+       <!-- <link rel="stylesheet" href="css/reset.css"> -->
+    <!-- <link rel="stylesheet" href="css/common.css"> -->
+    <link rel="stylesheet" href="css/check.css">
+    <link rel="stylesheet" href="css/ShoppingCart.css">
+    <!-- <script src="js/dropdown.js"></script> -->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/ShoppingCart.js"></script>
+</head>
+
+<body>
+    <iframe src="HeadPage.html" frameborder="0" width="100%" height="110px" Scrolling="no"></iframe>
+    <div class="bigDiv">
+        <!--购物车页面头部-->
+        <div class="headDiv">
+            <div class="commodityName" style="color: black">
+                <strong>
+                    <h3>商品名称</h3>
+                </strong>
+            </div>
+            <div class="marketPrice" style="color: black">
+                <strong>
+                    <h3>市场价</h3>
+                </strong>
+            </div>
+            <div class="SubscriptionPrice">
+                <strong>
+                    <h3>订购价（8折）</h3>
+                </strong>
+            </div>
+            <div class="number">
+                <strong>
+                    <h3>数量</h3>
+                </strong>
+            </div>
+            <div class="action">
+                <strong>
+                    <h3>操作</h3>
+                </strong>
+            </div>
+        </div>
+        <!--购物车页面选项栏-->
+        <div class="commodityBig">
+            <div class="commodity">
+                <div><input type="checkbox" class="check tui-checkbox"></div>
+                <div><img src="img/cake1.jpg" height="393" width="360" /></div>
+
+                <div class="commodityName">
+                    [悦轩饼家蛋糕]榴芒双拼（约2磅）-双拼蛋糕
+                </div>
+                <div class="marketPrice">
+                    <del>￥298</del>
+                </div>
+                <div class="SubscriptionPrice">
+                    <div class="p-sum">￥<span class="onlySum">198</span></div>
+                </div>
+                <div class="number p-quantity">
+                    <input type="button" class="decrease" value="-">
+                    <input type="text" class="quantity" value="1" />
+                    <input type="button" class="increase" value="+">
+                </div>
+                <div class="action">
+                    <a href="#">删除</a>
+                </div>
+
+            </div>
+            <div class="commodity">
+                <div><input type="checkbox" class="check tui-checkbox"></div>
+                <div><img src="img/cake2.jpg" height="393" width="360" /></div>
+                <div class="commodityName" style="width: 234px;">
+                    [悦轩饼家蛋糕]芒果千层900g
+                </div>
+                <div class="marketPrice">
+                    <del>￥289</del>
+                </div>
+                <div class="SubscriptionPrice">
+                    <div class="p-sum">￥<span class="onlySum">169</span></div>
+                </div>
+                <div class="number p-quantity">
+                    <input type="button" class="decrease" value="-">
+                    <input type="text" class="quantity" value="1" />
+                    <input type="button" class="increase" value="+">
+                </div>
+                <div class="action">
+                    <a href="#">删除</a>
+                </div>
+            </div>
+            <div class="commodity">
+                <div><input type="checkbox" class="check tui-checkbox"></div>
+                <div><img src="img/cake3.jpg" height="393" width="360" /></div>
+                <div class="commodityName">
+                    [悦轩饼家蛋糕]榴莲香雪（约2磅）-榴莲蛋糕
+                </div>
+                <div class="marketPrice">
+                    <del>￥269</del>
+                </div>
+                <div class="SubscriptionPrice">
+                    <div class="p-sum">￥<span class="onlySum">149</span></div>
+                </div>
+                <div class="number p-quantity">
+                    <input type="button" class="decrease" value="-">
+                    <input type="text" class="quantity" value="5" />
+                    <input type="button" class="increase" value="+">
+                </div>
+                <div class="action">
+                    <a href="#">删除</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bigDivTwo">
+
+        <span >
+            <span style="width: 80%;display: inline-block;text-align: right">应付金额：</span>
+            ￥<strong  > <span id="onlySum2">565</span></strong>
+        </span>
+        <button style="margin-top: 0px;" onclick="jiesuan()">
+
+            <strong>去结算</strong>
+        </button>
+        
+    </div>
+    <iframe src="BottomPage.html" frameborder="0" width="100%" height="200px" Scrolling="no"></iframe>
+</body>
+<script>
+    function jiesuan() {
+        var text = confirm("测试");
+        document.write(text);
+    }
+</script>
+</html>

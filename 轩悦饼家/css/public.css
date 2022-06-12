@@ -1,0 +1,138 @@
+/**********header************/
+.xf_header {
+	width: 100%;
+	height: 77px;
+	background: #fff;
+	border-bottom: 1px solid #9d9895;
+}
+
+header {
+	width: 1251px;
+	height: 78px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header>a {
+	float: left;
+}
+
+header>a img {
+	width: 217px;
+	height: 76px;
+}
+
+header .city {
+	float: left;
+	margin-top: 29px;
+	font-size: 12px;
+}
+
+header .city>img {
+	width: 11px;
+	height: 17px;
+	margin-left: 31px;
+	margin-right: 7px;
+}
+
+header .city>a {
+	padding: 9px;
+	background: #cccccc;
+	color: #fff;
+	margin-left: 13px;
+}
+
+header .nav {
+	float: left;
+	height: 78px;
+	line-height: 77px;
+	margin-left: 66px;
+}
+
+header .nav a {
+	color: #220e03;
+	margin-right: 29px;
+}
+
+header .nav a:last-child {
+	margin-right: 0;
+}
+
+header .nav a:first-child {
+	margin-right: 36px;
+}
+
+header .link {
+	float: right;
+	margin-top: 29px;
+}
+
+header .link>img {
+	width: 23px;
+	height: 23px;
+	float: left;
+	margin-right: 23px;
+}
+
+header .link>a {
+	padding: 11px 8px 12px 8px;
+	border: 1px solid #989898;
+	color: #03000e;
+}
+
+header .love {
+	display: inline-block;
+	background: url(../img/icon.gif) no-repeat -125px 0;
+	width: 36px;
+	height: 22px;
+}
+
+/**********footer**********/
+.xf_footer{
+	height: 146px;
+	background: #3e2d23;
+}
+footer{
+	width: 1251px;
+	height: 125px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+footer .footer1{
+	overflow: hidden;
+}
+footer .footer1 .msg{
+	margin-top: 37px;
+	margin-left: 8px;
+	float: left;
+}
+footer .footer1 .msg >a{
+	color: #fff;
+	padding-left: 12px;
+	padding-right: 28px;
+	border-right: 1px solid #b3a59c;
+}
+footer .footer1 .msg >a:last-child{
+	border: 0;
+}
+footer .footer1 .tel{
+	float: right;
+	margin-top: 37px;
+	margin-left: 56px;
+}
+footer .footer1 .tel a{
+	margin-right: 16px;
+	color: #fff;
+}
+footer .footer1 .tel a img{
+	float: left;
+	margin-right: 3px;
+}
+footer .footer2{
+	text-align: center;
+	margin-top: 34px;
+	color: #fff;
+}
+footer .footer2 .copyright span{
+	margin-right: 24px;
+}

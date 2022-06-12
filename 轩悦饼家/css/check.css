@@ -1,0 +1,48 @@
+.tui-checkbox:checked {
+    background: black;
+    border: 0;
+}
+/* 不推荐这样写，虽然效果一模一样，但是业务中通常使用checkbox与图片叠加，此处是将按钮改成了和图片一样的样式 */
+.tui-checkbox:hover {
+    border: solid 1px #707070;
+}
+
+.tui-checkbox {
+    
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: solid 1px black;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    cursor: default;
+    -webkit-appearance: none;
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-transition: background-color ease 0.1s;
+    transition: background-color ease 0.1s;
+    outline: none;
+}
+
+.tui-checkbox:checked::after {
+    content: '';
+    top: 5px;
+    left: 5px;
+    position: absolute;
+    background: transparent;
+    border: #fff solid 2px;
+    border-top: none;
+    border-right: none;
+    height: 6px;
+    width: 10px;
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}

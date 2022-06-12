@@ -1,0 +1,7 @@
+.parent1{
+    white-space:nowrap;/*强制单行显示*/
+  text-overflow:ellipsis;/*超出部分省略号表示*/
+  overflow:hidden;/*超出部分隐藏*/
+  width: 100%;/*设置显示的最大宽度*/
+  display:inline-block;
+ }

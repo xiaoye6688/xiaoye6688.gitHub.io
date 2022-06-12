@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+
+    <script src="js/login.js"></script>
+    <link rel="stylesheet" href="css/tooltipify.min.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <div class="loginDiv">
+        <form action="">
+            <h1>LOGIN IN</h1>
+            <div>
+                <p>
+                    用户名：<input type="text" name="username" id="username">
+                </p>
+                <p>
+                    密&nbsp;&nbsp;&nbsp;码：
+                <span class="default" style="display: block;float: right;">
+                    <input type="password" name="password" id="password" title="必须包含字母和数字" style="border: none; width:150px;height: 30px;background-color: rgba(137, 65, 204, 0.2);border-radius: 5px;outline: none;">
+                </span>
+                </p>
+                <div>
+                    <button>登录</button>
+                    <button>重置</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/jquery-tooltipify.min.js"></script>
+    <script type="text/javascript">
+        $(".default [title]").tooltipify();
+        $(".left [title]").tooltipify({ position: 'left' });
+        $(".right [title]").tooltipify({ position: 'right' });
+        $(".bottom [title]").tooltipify({ position: 'bottom' });
+    </script>
+</body>
+
+</html>

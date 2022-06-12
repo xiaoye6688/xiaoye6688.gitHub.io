@@ -1,0 +1,111 @@
+a {
+    /*去除超链接下划线 */
+    text-decoration: none;
+}
+
+
+.xrequired:before {
+    content: '*';
+    color: red;
+}
+input,textarea,select{
+    border: 1px solid #e9ecf0;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #e9ecf0;
+}
+.bigDiv {
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+    background-color: #f3f5f7;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.InformationBig {
+    width: 950px;
+    margin: auto;
+    /* 此处100%高度为500px */
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.InformationBig>div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.headLogin {
+    height: 25px;
+    background-color: #fff0ec;
+    border-radius: 10px 10px 0px 0px;
+    color: #ff734c;
+    font-size: 10px;
+    line-height: 25px;
+
+}
+.headLogin a{
+    color: #ff734c;
+}
+/* 信息头部汉字 */
+.InformationTitle{
+    font-size: 15px;
+    /* 字体加粗 */
+    font-weight: bold;
+    color: black;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.InformationBody>div>span,.SubscriberBody>div>span,.DateBody>div>span{
+    display: inline-block;
+    width: 100px;
+}
+.InformationBody>div,.SubscriberBody>div,.DateBody>div{
+    margin-bottom: 10px;
+}
+.ConsigneeInformation,.SubscriberInformation,.DeliveryDate,.ConsigneeInformation{
+    margin-top: 10px;
+    border-bottom: 1px solid #fff0ec;
+    padding-bottom: 10px;
+}
+.ChecklistPhoto{
+    background-color: #fff0ec;
+    padding-left: 5px;
+}
+.ChecklistPhoto span{
+vertical-align: top;
+}
+.ChecklistAddress{
+    margin-top: 10px;
+}
+.cakeNum{
+    display: inline-block;
+}
+.cakeNum div{
+    margin-top: 20px;
+    color: gray;
+}
+.Pay{
+    padding-bottom: 30px;
+}
+.Pay>div{
+    text-align: right;
+}
+.submit{
+width: 250px;
+height: 50px;
+background-color: #ff734c;
+margin-left: 50px;
+color: white;
+font-size: 20px;
+border-radius: 5px;
+border: 0;
+
+}
+.xxdizhi{
+ padding-left: 141px;
+ height: 20px;
+}

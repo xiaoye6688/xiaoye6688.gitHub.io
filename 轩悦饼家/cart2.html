@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/public.css" />
+		<link rel="stylesheet" type="text/css" href="css/cart.css" />
+		<style>
+			/* 加减按钮样式 */
+			.number-box {
+				border: #e5e5e5 solid 1px;
+				display: inline-block;
+				margin-top: 26px;
+				overflow: hidden;
+			}
+
+			.number-box input[type='text'] {
+				height: 30px;
+				border-top: none;
+				border-bottom: none;
+				border-left: #e5e5e5 solid 1px;
+				border-right: #e5e5e5 solid 1px;
+				margin: 0;
+				text-align: center;
+				width: 40px;
+				outline: none;
+				padding: 0 5px;
+				float: left;
+				line-height: 30px;
+			}
+
+			.number-box input[type='button'] {
+				height: 30px;
+				width: 40px;
+				float: left;
+				border: none;
+				outline: none;
+				background-color: #f3f3f3;
+				line-height: 30px;
+				cursor: pointer;
+				padding: 0;
+			}
+
+			.number-box input[type='button']:hover {
+				background-color: #f9f9f9;
+			}
+
+			.number-box input[type='button']:active {
+				background-color: #f6f6f6;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="page">
+			<!--头部-->
+			<div class="xf_header">
+				<header>
+					<a href="index.html">
+						<img src="img/logo_big01.png" />
+					</a>
+					<div class="city">
+						<img src="img/icon-address.png" />
+						<span>武汉市</span>
+						<a href="#">切换城市</a>
+					</div>
+					<div class="nav">
+						<a href="#">全部</a>
+						<a href="list.html">蛋糕</a>
+						<a href="#">下午茶</a>
+						<a href="#">手信</a>
+						<a href="#">团购预约</a>
+						<a href="about.html">关于我们</a>
+					</div>
+					<div class="link">
+						<div class="love"></div>
+						<a href="#"> <img src="img/i-search.jpg" /></a>
+						<a href="#"><img src="img/i-cart.jpg" /></a>
+						<a href="login.html"><img src="img/i-user.jpg" /></a>
+						<a href="#">联系我们</a>
+					</div>
+
+				</header>
+
+			</div>
+			<!--头部 end-->
+
+			<div class="container">
+				<!-- 订单列表 -->
+				<div class="cart-panel">
+					<div class="hd">
+						<ul class="order-title">
+							<li class="selecter"></li>
+							<li class="product">商品名称</li>
+							<li class="market-price">市场价</li>
+							<li class="order-price">订购价(8折)</li>
+							<li class="num">数量</li>
+							<li class="operate">操作</li>
+						</ul>
+					</div>
+					<div class="bd">
+						<ul class="order-list">
+							<li class="selecter">
+								<i class="icon-select active" onclick="changeSelect(this)"></i>
+							</li>
+							<li class="img-box">
+								<a href="#" target="_blank">
+									<img src="img/cake1.jpg">
+								</a>
+							</li>
+							<li class="product">
+								<a href="#" target="_blank">
+									<span class="product-title" style="line-height:40px;">[悦轩饼家蛋糕]榴芒双拼(约2磅)一双拼蛋糕</span>
+									<span class="feature"></span>
+								</a>
+							</li>
+							<li class="market-price">
+								<span class="price-sign">¥</span>
+								<span class="price-num">298</span>
+							</li>
+							<li class="order-price">
+								<span class="price-sign">¥</span>
+								<span class="price-num">198</span>
+							</li>
+							<li class="num">
+								<div class="number-box">
+									<input type="button" class="sub-number" value="减">
+									<input type="text" value="5" class="txt-num">
+									<input type="button" class="add-number" value="加">
+								</div>
+							</li>
+							<li class="operate">
+								<a href="javascript:void(0)" class="delBtn" onclick="delTag(this)">删除</a>
+							</li>
+						</ul>
+						<ul class="order-list">
+							<li class="selecter">
+								<i class="icon-select active" onclick="changeSelect(this)"></i>
+							</li>
+							<li class="img-box">
+								<a href="#" target="_blank">
+									<img src="img/cake2.jpg">
+								</a>
+							</li>
+							<li class="product">
+								<a href="#" target="_blank">
+									<span class="product-title" style="line-height:40px;">[悦轩饼家蛋糕]芒果千层(900g)</span>
+									<span class="feature"></span>
+								</a>
+							</li>
+							<li class="market-price">
+								<span class="price-sign">¥</span>
+								<span class="price-num">289</span>
+							</li>
+							<li class="order-price">
+								<span class="price-sign">¥</span>
+								<span class="price-num">169</span>
+							</li>
+							<li class="num">
+								<div class="number-box">
+									<input type="button" class="sub-number" value="减">
+									<input type="text" value="2" class="txt-num">
+									<input type="button" class="add-number" value="加">
+								</div>
+							</li>
+							<li class="operate">
+								<a href="javascript:void(0)" class="delBtn" onclick="delTag(this)">删除</a>
+							</li>
+						</ul>
+						<ul class="order-list">
+							<li class="selecter">
+								<i class="icon-select" onclick="changeSelect(this)"></i>
+							</li>
+							<li class="img-box">
+								<a href="#" target="_blank">
+									<img src="img/cake3.jpg">
+								</a>
+							</li>
+							<li class="product">
+								<a href="#" target="_blank">
+									<span class="product-title" style="line-height:40px;">[悦轩饼家蛋糕]榴莲香雪(约2磅)一榴莲蛋糕</span>
+									<span class="feature"></span>
+								</a>
+							</li>
+							<li class="market-price">
+								<span class="price-sign">¥</span>
+								<span class="price-num">269</span>
+							</li>
+							<li class="order-price">
+								<span class="price-sign">¥</span>
+								<span class="price-num">149</span>
+							</li>
+							<li class="num">
+								<div class="number-box">
+									<input type="button" class="sub-number" value="减">
+									<input type="text" value="1" class="txt-num">
+									<input type="button" class="add-number" value="加">
+								</div>
+							</li>
+							<li class="operate">
+								<a href="javascript:void(0)" class="delBtn" onclick="delTag(this)">删除</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 订单列表 end-->
+
+				<!-- 结算 -->
+				<div class="set-bar">
+					<div class="set-info">
+						<div class="set-stat">
+							应付金额:
+							<div class="price">
+								<span class="price-sign">¥</span>
+								<span class="price-num" id="totalMoney">565</span>
+							</div>
+						</div>
+					</div>
+					<button class="btn btn-primary btn-lg" type="button" id="jiesuan">去结算</button>
+				</div>
+				<!-- 结算 End -->
+			</div>
+
+			<!--底部 -->
+			<div class="xf_footer">
+				<footer>
+					<div class="footer1">
+						<div class="msg">
+							<a href="#">品牌动态</a>
+							<a href="#">生产经营资质</a>
+							<a href="#">企业合作</a>
+							<a href="#">发票申请</a>
+							<a href="#">平台规则</a>
+							<a href="#">帮助服务</a>
+							<a href="#">联系我们</a>
+						</div>
+						<div class="tel">
+							<a href="#">
+								<img src="img/tel_03.jpg" />
+								<span>400-999-6665</span>
+							</a>
+							<a href="#">WEIBO</a>
+							<a href="#">WECHAT</a>
+							<a href="#">京东商城</a>
+						</div>
+					</div>
+					<div class="footer2">
+						<div class="copyright">
+							<span>深圳市悦轩商城科技股份有限公司</span>
+							<span>粤ICP备16039394号-6 </span>
+							<span>京公网安备44030702002399</span>
+							<span>公司地址：深圳市龙岗区坂田街道布龙339鸿生源工业园A座5楼</span>
+						</div>
+					</div>
+			</div>
+			<!--底部 end-->
+		</div>
+		</div>
+	</body>
+
+
+	<script type="text/javascript">
+		// 判断class是否存在
+		function hasClass(elements, cName) {
+			return !!elements.className.match(new RegExp("(\\s|^)" + cName + "(\\s|$)"));
+		}
+
+		// 切换class
+		function toggleClass(elements, cName) {
+			if (hasClass(elements, cName)) {
+				elements.className = elements.className.replace(new RegExp("(\\s|^)" + cName + "(\\s|$)"), "");
+			} else {
+				elements.className += " " + cName;
+			}
+		}
+
+
+		// 选中状态切换
+		function changeSelect(thisObj) {
+			toggleClass(thisObj, "active");
+		}
+
+		// 移除商品，弹框确认
+		function delTag(thisObj) {
+			if (confirm("确认从购物车中移除该商品？")) {
+				//先找到当前节点的父亲
+				var parentNode = thisObj.parentNode;
+				//找爷爷
+				var reprent = parentNode.parentNode;
+				//找祖父
+				var grparent=reprent.parentNode;
+
+				grparent.removeChild(reprent);
+			}
+		}
+	</script>
+</html>
