@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ueditor demo</title>
+  <link href="normalize.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <script src="index.min.js"></script>
+</head>
+
+<body>
+  <div class="page-container">
+    <div class="page-right">
+      <div style="border: 1px solid red;">
+        <div id="editor-toolbar"></div>
+        <div id="editor-text-area" style="height: 800px"></div>
+      </div>
+    </div>
+  </div>
+  <script>
+    const E = window.wangEditor
+    let html = ``
+    window.editor = E.createEditor({
+      selector: '#editor-text-area',
+      html,
+      mode: 'simple',
+      config: {
+        placeholder: 'Type here...',
+        MENU_CONF: {
+          uploadImage: {
+            fieldName: 'your-fileName',
+            base64LimitSize: 10 * 1024 * 1024 // 10M 以下插入 base64
+          }
+        },
+        onChange() {
+          console.log(editor.getHtml())
+        }
+      }
+    })
+    window.toolbar = E.createToolbar({
+      editor,
+      mode: 'simple',
+      selector: '#editor-toolbar',
+      config: {}
+    })
+  </script>
+  
+</body>
+
+</html>
