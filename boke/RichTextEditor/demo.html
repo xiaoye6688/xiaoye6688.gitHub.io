@@ -6,6 +6,7 @@
   <title>ueditor demo</title>
   <link href="normalize.min.css" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
+  <script src="jquery-1.12.4.js"></script>
   <script src="index.min.js"></script>
 </head>
 
@@ -14,11 +15,20 @@
     <div class="page-right">
       <div style="border: 1px solid red;">
         <div id="editor-toolbar"></div>
-        <div id="editor-text-area" style="height: 800px"></div>
+        <div id="editor-text-area" style="height: 400px"></div>
       </div>
     </div>
   </div>
+  <button onclick="getHtml()">提交</button>
+  <div>
+    <textarea id="html" style="width: 100%; height: 400px;"></textarea>
+  </div>
   <script>
+    function getHtml() {
+      // 弹出id为editor-text-area的HTML代码
+      //alert($('#editor-text-area').html());
+      $('#html').val($('#editor-text-area').html());
+    }
     const E = window.wangEditor
     let html = ``
     window.editor = E.createEditor({
@@ -45,7 +55,7 @@
       config: {}
     })
   </script>
-  
+
 </body>
 
 </html>
