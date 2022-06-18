@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="css/bokeJC.css">
+    <script src="RichTextEditor/jquery-1.12.4.js"></script>
 </head>
 
 <body>
@@ -55,8 +56,8 @@
                 <blockquote>
                     <p>博客生活，记录点滴</p>
                 </blockquote>
-                <div class="entry-content">
-                    <iframe src="RichTextEditor/IsDNS.html" frameborder="0" width="100%" frameborder="no" scrolling="no"></iframe>
+                <div class="entry-content" id="neirong">
+                    
                 </div><!-- .entry-content -->
 
             </div>
@@ -120,6 +121,18 @@
             <div> <a href="http://www.xiaoye6688.xyz">www.xiaoye6688.xyz</a></div>
         </address>
     </div>
+    <script>
+        ajax({
+            url: 'richTextEditor/IsDNS.html',
+            type: 'html',
+            data: {
+
+            },
+            success: function (data) {
+                $('#neirong').html(data);
+            }
+        });
+    </script>
 </body>
 
 </html>
